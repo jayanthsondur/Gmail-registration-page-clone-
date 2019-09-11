@@ -1,0 +1,156 @@
+body {
+    background: white;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.base {
+    position: center;
+    width: 55%;
+    height: 78%;
+
+    color: gray;
+    box-sizing: inherit;
+    border-style: groove;
+    margin-left: 22%;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+#logo {
+
+    margin-top: 30px;
+    padding-left: 6px;
+    height: 35px;
+    width: 500px;
+}
+
+#info1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    color: #202124;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-family: 'Google Sans', arial, sans-serif;
+
+}
+
+#info2 {
+    font-size: 16px;
+    font-family: 'Google Sans', arial, sans-serif;
+    padding-left: 10px;
+    color: #202124;
+    font-weight: 400;
+    padding-bottom: 8px;
+    margin-top: 5px;
+}
+
+.textbox {
+    width: 180px;
+    height: 32px;
+    border: solid 1px #c2c4c6;
+    font-size: 14px;
+    padding-left: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+
+.textbox1 {
+    width: 140px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: solid 1px #c2c4c6;
+
+}
+
+
+.mailid {
+    width: 385px;
+    height: 32px;
+    border: solid 1px #c2c4c6;
+    font-size: 14px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+.textArea {
+    width: 55%;
+    height: 90%;
+    float: left;
+    padding: 15px;
+
+}
+
+.imageSide {
+    width: 30%;
+    margin-top: 15%;
+    height: 60%;
+
+    float: left;
+    padding: 15px;
+
+}
+
+#link {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Google Sans', arial, sans-serif;
+    color: #1a73e8;
+    padding: 5%;
+    font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 36px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+#link a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.button {
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    background: #498af2;
+    font-family: verdana;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    cursor: pointer;
+    outline: none;
+}
+
+#validation-txt {
+    font-size: 12px;
+    color: red;
+
+}
+
+
+.fa-fa-eye {
+    color: white;
+    font-size: 27px;
+    margin-left: 8px;
+    height: 24;
+    width: 24;
+
+}
+
+
+.first-example {
+    margin-bottom: 10px;
+}

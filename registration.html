@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="style1.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["name"].value;
+            if (x == "") {
+                alert("success");
+                return false;
+            } else {
+                alert("add the name");
+                return true;
+            }
+        }
+    </script>
+    <title>Registration</title>
+</head>
+
+<body>
+
+
+    <div class="base">
+        <div class="textArea">
+            <div id="logo">
+                <img src="googlelogo.png" width="118" height="38" />
+            </div>
+
+            <div id="info1">
+                <p> Create your Google Account</p>
+            </div>
+
+            <div id="info2">
+                <p2>to continue to Gmail</p2>
+            </div>
+            <div>
+                <form name="myForm" onsubmit="return validateForm()" method="post">
+
+                    <input id="inputFirstName" class="textbox" placeholder="  First name" type="text" name="name"
+                        required />
+                    <input class="textbox" placeholder="  Last name" type="text" name="name" required />
+                    <div>
+                        <input class="mailid" placeholder="Username                               
+                @gmail.com" type="mail" name="name" pattern=".+@gmail.com" required />
+                    </div>
+                    <div>
+                        <small>You can use letters, numbers & periods</small>
+                    </div>
+
+                    <div>
+                        <input class="textbox1" type="Password" placeholder="  password" name="name" required
+                            id="password-field" onkeyup="validate()" ; />
+                        <input class=" textbox1" type="Password" placeholder="  confirm" name="name" required
+                            id="password-field2" onkeyup="validate()" ; />
+
+                        <i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+                    </div>
+
+
+                    <div id="validation-txt">
+                    </div>
+
+                    <div>
+                        <br>
+                        <small>Use 8 or more characters with a mix of letters, numbers & <br> symbols
+                        </small>
+                    </div>
+
+            </div>
+            <div id="link">
+                <a href="#">Sign in instead</a>
+            </div>
+            <input class="button" type="submit" value="Next" />
+            </form>
+
+
+
+        </div>
+
+        <div class="imageSide">
+            <img src="Registrationlogo.png" />
+            <center>
+                <p>One account. All of Google working for you.</p>
+            </center>
+        </div>
+
+    </div>
+
+</html>
+
+</body>
